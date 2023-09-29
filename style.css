@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+canvas {
+  position: absolute;
+  /* background-color: transparent; */
+  background-image: url('/assets/space.webp');
+  width: 500px;
+  height: 500px;
+  border: 1em solid rgb(14, 57, 89);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#colision {
+  opacity: 0;
+}
